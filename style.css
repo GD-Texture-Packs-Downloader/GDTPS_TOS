@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Fondo general */
+body {
+  background-color: #f7f7f7; /* pmahomme claro */
+  color: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #2e6da4; /* azul pmahomme */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* Main */
+main {
+  flex: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Botones estilo pmahomme */
+.btn {
+  background-color: #337ab7; /* azul pmahomme */
+  color: #fff;
+  border: 1px solid #2e6da4;
+  border-radius: 4px;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #286090;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #2e6da4;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
